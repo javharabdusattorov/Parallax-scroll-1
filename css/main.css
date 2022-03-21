@@ -1,0 +1,59 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Fredoka:wght@500&family=IBM+Plex+Sans+Thai+Looped&family=Inconsolata:wght@500&family=Mukta&family=Nunito:wght@200;300;400;500;600&family=Press+Start+2P&family=Roboto:wght@300&family=Smooch+Sans:wght@800&family=Supermercado+One&family=Work+Sans:wght@500&display=swap');
+
+
+body {
+    background-color: black;
+    height: 1270px;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.scene {
+    position: absolute;
+    transform: translateY(var(--translateY));
+    will-change: transform;
+    width: 100%;
+}
+
+.theme {
+    position: absolute;
+    top: 17px;
+    left: 355px;
+    z-index: 1;
+}
+
+.theme h1 {
+    font-size: 65px;
+    color: white;
+    letter-spacing: 4.7px;
+    font-family: system-ui;
+    text-transform: uppercase;
+    text-shadow: 0 2.7px 5px #0000005c;
+}
+
+.textsArea {
+    position: absolute;
+    top: 685px;
+    left: 0;
+    padding: 0 100px;
+    z-index: 2;
+}
+
+.loremTexts {
+    font-size: 25px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    line-height: 40px;
+}
+
+.scene:nth-child(5) {
+    padding: 60px 0;
+    z-index: 2;
+}
+
+.scene:nth-child(6) {
+    padding: 50px 0; 
+    z-index: 2;
+}
